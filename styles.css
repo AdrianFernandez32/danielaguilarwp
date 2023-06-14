@@ -2,12 +2,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #fbfaf9;
     color: black;
     width: 100%;
-    height: 100px;
+    height: 110px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    transition: 100ms;
+    min-width: 15%;
+}
+
+.option:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10%;
 }
 
 .logo {
-    height: 70%;
+    height: 100%;
+    margin-left: 5rem;
 }
